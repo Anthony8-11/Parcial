@@ -86,7 +86,7 @@ const iterableFrom = '123';
 const newArrayFrom = Array.from(iterableFrom, num => parseInt(num));
 console.log("17. from:", newArrayFrom);
 
-// 18. flatMap (agregado para llegar a 30): Crea un nuevo array aplicando una función y aplanando el resultado.
+// 18. flatMap: Crea un nuevo array aplicando una función y aplanando el resultado.
 const wordsArray = ['hello', 'world'];
 const charsArray = wordsArray.flatMap(word => word.split(''));
 console.log("18. flatMap:", charsArray);
