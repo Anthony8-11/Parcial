@@ -35,11 +35,6 @@ console.log("6. fill:", numbersFill);
 const newArrayOf = Array.of(1, 2, 3);
 console.log("7. of:", newArrayOf);
 
-// 8. push (segunda vez): Añade uno o más elementos al final del array.
-const numbersPush2 = [1, 2];
-numbersPush2.push(3, 4, 5);
-console.log("8. push (segunda vez):", numbersPush2);
-
 // ** Métodos de Acceso y Búsqueda **
 
 // 9. every: Verifica si todos los elementos cumplen con una condición.
